@@ -1,24 +1,23 @@
-# pugtohtml-cli
+# pug-compiler-cli
 
-We Use for compile Pug to HTML.
+A Pug compiler directly from the CLI using env files
 
 ## Getting Started
 
-*  Install with npm: `npm install @foxythemes/pugtohtml-cli -D`
-*  Run it with `pugtohtml`
+*  Install with npm: `npm install @foxythemes/pug-compiler-cli -D`
+*  Run it with `pug-compiler`
 
 ## Docs
 
 ```	
-pugtohtml -c path/to/config-main-file -e dist -x .path/to/config-env-file -v path/to/pug -d path/to/html
+pug-compiler --conf config/file --env dist --src src/html --dest dist/html
 
 Basic options
 
--c, --conf-path-main    Source path of main config file
--e, --env               Environment for compile
--x, --conf-path-env     Source path of environment config file
--v, --views-path        Source path of pug files
--d, --dest-path         Source path of destination html files
+-c, --conf     Source path of base config file
+-e, --env      Environment for compile
+-s, --src      Source path of pug files
+-d, --dest     Source path of destination html files
 
 ```
 

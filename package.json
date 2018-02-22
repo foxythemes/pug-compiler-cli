@@ -1,27 +1,27 @@
 {
-  "name": "@foxythemes/pugtohtml-cli",
+  "name": "@foxythemes/pug-compiler-cli",
   "version": "1.0.0",
-  "description": "Compile Pug to HTML",
-  "main": "lib/pugtohtml-cli.js",
+  "description": "A Pug compiler directly from the CLI using env files",
+  "main": "lib/pug-compiler-cli.js",
   "directories": {
     "lib": "lib"
   },
   "bin": {
-    "pugtohtml": "./lib/pugtohtml-cli.js"
+    "pug-compiler": "./lib/pug-compiler-cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/foxythemes/pugtohtml-cli.git"
+    "url": "git+https://github.com/foxythemes/pug-compiler-cli.git"
   },
   "author": "Jhon Pérez",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/foxythemes/pugtohtml-cli/issues"
+    "url": "https://github.com/foxythemes/pug-compiler-cli/issues"
   },
-  "homepage": "https://github.com/foxythemes/pugtohtml-cli#readme",
+  "homepage": "https://github.com/foxythemes/pug-compiler-cli#readme",
   "dependencies": {
     "chalk": "^2.3.1",
     "command-line-args": "^5.0.2",
