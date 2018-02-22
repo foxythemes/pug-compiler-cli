@@ -16,7 +16,7 @@ Basic options
 
 -e, --env      Environment for compile
 -s, --src      Source path of pug files
--d, --dest     Source path of compiled files
+-d, --dest     Destination path for compiled files
 
 ```
 
