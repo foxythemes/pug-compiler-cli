@@ -1,6 +1,6 @@
 {
   "name": "@foxythemes/pug-compiler-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Pug compiler directly from the CLI using env files",
   "main": "lib/pug-compiler-cli.js",
   "directories": {
